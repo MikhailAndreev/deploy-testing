@@ -1,9 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cef5f553-2d84-405b-bad3-c728adae0e5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/webpack.config.prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pizzaimage/PizzaImage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pizzaimage/PizzaImage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pizzaimage/Pizzaimage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pizzaimage/Pizzaimage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Pizza.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Pizza.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1WKlXxaKK65QULS0vPa7oGPoEmu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses" />
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\node_modules" />
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\hoc" />
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cef5f553-2d84-405b-bad3-c728adae0e5d" name="Default Changelist" comment="" />
+      <created>1578906210996</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578906210996</updated>
+      <workItem from="1578906213964" duration="12513000" />
+      <workItem from="1579001547216" duration="4489000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="21" key="#JavaScript" timestamp="1578917916359">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#JavaScript/0.0.1366.728@0.0.1366.728" timestamp="1578917916359" />
+    <state x="926" y="90" key="FileChooserDialogImpl" timestamp="1579005450179">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="926" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579005450179" />
+    <state x="588" y="46" key="RollbackChangesDialog" timestamp="1579006139222">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="588" y="46" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579006139222" />
   </component>
 </project>
