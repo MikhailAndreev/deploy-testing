@@ -2,20 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cef5f553-2d84-405b-bad3-c728adae0e5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/webpack.config.prod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static-data/films.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static-data/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static-data/tags.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/CustomButton/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/CustomInput/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/FilterApp/FilterApp.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/FilterApp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/utility.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pizzaimage/PizzaImage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pizzaimage/PizzaImage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pizzaimage/Pizzaimage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pizzaimage/Pizzaimage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Pizza.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Pizza.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pizzaimage/PizzaImage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pizzaimage/Pizzaimage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Pizza.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/asyncComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/asyncComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.prod.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,17 +62,38 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\store" />
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\store\actions" />
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src" />
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\assets\static-data" />
       <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses" />
-      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\node_modules" />
-      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\hoc" />
-      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\styles" />
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\store" />
       <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="build:prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build:prod" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build:prod" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -80,7 +118,17 @@
       <option name="presentableId" value="Default" />
       <updated>1578906210996</updated>
       <workItem from="1578906213964" duration="12513000" />
-      <workItem from="1579001547216" duration="4489000" />
+      <workItem from="1579001547216" duration="5876000" />
+      <workItem from="1579077031785" duration="1695000" />
+      <workItem from="1579163502000" duration="2037000" />
+      <workItem from="1579420768023" duration="7431000" />
+      <workItem from="1579507763709" duration="6640000" />
+      <workItem from="1579770126298" duration="15084000" />
+      <workItem from="1579859436447" duration="6564000" />
+      <workItem from="1579988211697" duration="1201000" />
+      <workItem from="1580154250492" duration="215000" />
+      <workItem from="1580372052270" duration="7451000" />
+      <workItem from="1580465775332" duration="5597000" />
     </task>
     <servers />
   </component>
@@ -92,13 +140,41 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="21" key="#JavaScript/0.0.1366.728@0.0.1366.728" timestamp="1578917916359" />
-    <state x="926" y="90" key="FileChooserDialogImpl" timestamp="1579005450179">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579807107035">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="926" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579005450179" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579807107035" />
+    <state x="318" y="141" key="EditFileWatcherDialog" timestamp="1579806964580">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="318" y="141" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1579806964580" />
+    <state x="926" y="90" key="FileChooserDialogImpl" timestamp="1580473475684">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="926" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580473475684" />
+    <state width="1344" height="174" key="GridCell.Tab.0.bottom" timestamp="1580473419416">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580473419416" />
+    <state width="1344" height="174" key="GridCell.Tab.0.center" timestamp="1580473419416">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580473419416" />
+    <state width="1344" height="174" key="GridCell.Tab.0.left" timestamp="1580473419415">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580473419415" />
+    <state width="1344" height="174" key="GridCell.Tab.0.right" timestamp="1580473419416">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580473419416" />
     <state x="588" y="46" key="RollbackChangesDialog" timestamp="1579006139222">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="588" y="46" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579006139222" />
+    <state x="186" y="0" key="SettingsEditor" timestamp="1580372281860">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580372281860" />
   </component>
 </project>

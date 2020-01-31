@@ -1,28 +1,32 @@
 import React, {Component} from 'react';
-import {Link, Route} from 'react-router-dom';
+import {Link, Route, BrowserRouter, Switch} from 'react-router-dom';
 
-import Users from "./containers/Users";
-import Pizza from "./containers/Pizza";
-import asyncComponent from "./hoc/asyncComponent";
+import FilterApp from "./containers/FilterApp";
+import * as staticData from './assets/static-data';
 
-const AsyncPizza = asyncComponent(() => {
-    return import('./containers/Pizza.js')
-});
+const getAddress = () => {
+  console.log(staticData.filmsList)
+};
+
 class App extends Component {
-    render() {
+
+  componentDidMount() {
+    getAddress();
+  }
+
+  render() {
         return(
             <div>
-                <div>
-                    <Link to='/'>Users</Link>
-                    <Link to='/pizza'>Pizza</Link>
-                </div>
-                <div>
-                    <Route path='/' exact component={Users}/>
-                    <Route path='/' exact component={AsyncPizza}/>
-                </div>
+              <BrowserRouter basename="/path-maker">
+                <Switch>
+                  <Route path='/' component={FilterApp} exact/>
+
+                </Switch>
+              </BrowserRouter>
             </div>
         );
     }
 }
 
 export default App;
+

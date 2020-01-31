@@ -1,9 +1,6 @@
-export const DECREMENT = 'DECREMENT';
-export const INCREMENT = 'INCREMENT';
-export const INCREMENT_FIVE = 'INCREMENT_FIVE';
-export const DECREMENT_FIVE = 'DECREMENT_FIVE';
-export const STORE_RESULT = 'STORE_RESULT';
-export const DELETE_RESULT = 'DELETE_RESULT';
+export const FILMS_LIST_SHOW = 'FILMS_LIST_SHOW';
+export const FILMS_LIST_END = 'FILMS_LIST_END';
+
 
 
 

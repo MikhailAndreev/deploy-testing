@@ -1,11 +1,8 @@
 export {
-  increment,
-  incrementFive,
-  decrement,
-  decrementFive
-} from './counter';
+  filmsShow,
+} from './service';
 
-export {
-  storeResult,
-  deleteResult
-} from './result';
+// export {
+//   storeResult,
+//   deleteResult
+// } from './result';
