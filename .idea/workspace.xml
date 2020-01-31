@@ -2,35 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cef5f553-2d84-405b-bad3-c728adae0e5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/static-data/films.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/static-data/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/static-data/tags.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/CustomButton/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/CustomInput/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/FilterApp/FilterApp.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/FilterApp/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/actionTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/utility.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pizzaimage/PizzaImage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pizzaimage/Pizzaimage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Pizza.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/static-data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/static-data/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/CustomButton/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/CustomButton/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/CustomInput/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/CustomInput/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/FilterApp/FilterApp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FilterApp/FilterApp.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/FilterApp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FilterApp/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hoc/asyncComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/asyncComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.prod.js" afterDir="false" />
     </list>
@@ -128,7 +118,7 @@
       <workItem from="1579988211697" duration="1201000" />
       <workItem from="1580154250492" duration="215000" />
       <workItem from="1580372052270" duration="7451000" />
-      <workItem from="1580465775332" duration="5597000" />
+      <workItem from="1580465775332" duration="6631000" />
     </task>
     <servers />
   </component>
@@ -152,22 +142,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="926" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580473475684" />
-    <state width="1344" height="174" key="GridCell.Tab.0.bottom" timestamp="1580473419416">
+    <state width="1344" height="174" key="GridCell.Tab.0.bottom" timestamp="1580474372145">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580473419416" />
-    <state width="1344" height="174" key="GridCell.Tab.0.center" timestamp="1580473419416">
+    <state width="1344" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580474372145" />
+    <state width="1344" height="174" key="GridCell.Tab.0.center" timestamp="1580474372145">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580473419416" />
-    <state width="1344" height="174" key="GridCell.Tab.0.left" timestamp="1580473419415">
+    <state width="1344" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580474372145" />
+    <state width="1344" height="174" key="GridCell.Tab.0.left" timestamp="1580474372145">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580473419415" />
-    <state width="1344" height="174" key="GridCell.Tab.0.right" timestamp="1580473419416">
+    <state width="1344" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580474372145" />
+    <state width="1344" height="174" key="GridCell.Tab.0.right" timestamp="1580474372145">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580473419416" />
+    <state width="1344" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580474372145" />
     <state x="588" y="46" key="RollbackChangesDialog" timestamp="1579006139222">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
