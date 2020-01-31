@@ -17,7 +17,7 @@ class FilterApp extends Component {
   }
 
   componentDidUpdate() {
-
+    console.log(this.props.srv.isDisabled)
   }
 
   render () {
@@ -59,7 +59,8 @@ class FilterApp extends Component {
 
                 <CustomButton
                     name='More'
-                    style='btn-tabs'
+                    // style='btn-tabs'
+                    style={`${this.props.srv.isDisabled ? 'btn-hide' : ''} ${'btn-tabs'}`}
                     handleClick={this.props.onShowMore}
 
                 />

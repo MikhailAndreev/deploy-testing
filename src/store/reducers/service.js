@@ -4,9 +4,9 @@ import {updateObject} from "../utility";
 
 
 const initialState = {
-  films: staticData.filmsList,
+  films: staticData.filmsList.slice(0, 30),
   updatedFilms: [],
-  filmsToShow: 2,
+  filmsToShow: 10,
   step: 0,
   counting: 1,
   isDisabled: false
@@ -20,8 +20,6 @@ const reducer = (state = initialState, action) => {
     case actionTypes.FILMS_LIST_SHOW:
       return updateObject(state, {
         updatedFilms: state.updatedFilms.concat(state.films.slice(state.step, state.step + state.filmsToShow)),
-        counter: 0,
-        filmsToShow: 2,
         step: state.step + state.filmsToShow,
         counting: state.counting + 1,
         isDisabled: clickNumber === state.counting
