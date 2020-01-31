@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import CustomInput from "../../components/atoms/CustomInput";
-import './FilterApp.scss'
+import './FilterApp.module.scss'
 import CustomButton from "../../components/atoms/CustomButton";
 import * as actionCreators from '../../store/actions/index'
 
