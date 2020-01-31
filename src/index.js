@@ -7,7 +7,7 @@ import thunk from 'redux-thunk';
 
 import filter from './store/reducers/filter';
 import service from './store/reducers/service';
-import styles from './index.scss';
+// import styles from './index.scss';
 import App from "./App";
 
 const rootReducer = combineReducers({
