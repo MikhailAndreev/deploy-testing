@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import CustomInput from "../../components/atoms/CustomInput";
-import '../../styles/FilterApp.scss'
+import './FilterApp.scss'
 import CustomButton from "../../components/atoms/CustomButton";
 import * as actionCreators from '../../store/actions/index'
 
@@ -62,9 +62,7 @@ class FilterApp extends Component {
                     // style='btn-tabs'
                     style={`${this.props.srv.isDisabled ? 'btn-hide' : ''} ${'btn-tabs'}`}
                     handleClick={this.props.onShowMore}
-
                 />
-
               </div>
             </div>
           </div>

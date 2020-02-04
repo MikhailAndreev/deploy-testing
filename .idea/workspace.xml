@@ -4,8 +4,7 @@
     <list default="true" id="cef5f553-2d84-405b-bad3-c728adae0e5d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/FilterApp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FilterApp/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/FilterApp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/FilterApp.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/FilterApp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FilterApp/FilterApp.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,21 +32,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/containers/FilterApp" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\styles" />
-      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\store" />
-      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\containers\FilterApp" />
       <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\store" />
       <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\store\actions" />
       <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src" />
       <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\assets\static-data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\styles" />
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\store" />
       <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses" />
     </key>
   </component>
@@ -101,7 +100,8 @@
       <workItem from="1579988211697" duration="1201000" />
       <workItem from="1580154250492" duration="215000" />
       <workItem from="1580372052270" duration="7451000" />
-      <workItem from="1580465775332" duration="12670000" />
+      <workItem from="1580465775332" duration="13515000" />
+      <workItem from="1580801746176" duration="896000" />
     </task>
     <servers />
   </component>
@@ -113,10 +113,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="21" key="#JavaScript/0.0.1366.728@0.0.1366.728" timestamp="1578917916359" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580478431393">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580802632342">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1580478431393" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1580802632342" />
     <state x="318" y="141" key="EditFileWatcherDialog" timestamp="1579806964580">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -125,22 +125,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="926" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580473475684" />
-    <state width="1344" height="174" key="GridCell.Tab.0.bottom" timestamp="1580477797913">
+    <state width="1344" height="174" key="GridCell.Tab.0.bottom" timestamp="1580486262056">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580477797913" />
-    <state width="1344" height="174" key="GridCell.Tab.0.center" timestamp="1580477797913">
+    <state width="1344" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580486262056" />
+    <state width="1344" height="174" key="GridCell.Tab.0.center" timestamp="1580486262056">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580477797913" />
-    <state width="1344" height="174" key="GridCell.Tab.0.left" timestamp="1580477797913">
+    <state width="1344" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580486262056" />
+    <state width="1344" height="174" key="GridCell.Tab.0.left" timestamp="1580486262056">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580477797913" />
-    <state width="1344" height="174" key="GridCell.Tab.0.right" timestamp="1580477797913">
+    <state width="1344" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580486262056" />
+    <state width="1344" height="174" key="GridCell.Tab.0.right" timestamp="1580486262056">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580477797913" />
+    <state width="1344" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580486262056" />
     <state x="588" y="46" key="RollbackChangesDialog" timestamp="1579006139222">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
