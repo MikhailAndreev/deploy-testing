@@ -7,13 +7,11 @@ import thunk from 'redux-thunk';
 
 import filter from './store/reducers/filter';
 import service from './store/reducers/service';
-// import styles from './index.scss';
 import App from "./App";
+import {loadState, saveState} from './utils/localStorage';
+import filmsApp from "./store/reducers";
 
-const rootReducer = combineReducers({
-  ftr: filter,
-  srv: service
-});
+
 
 const logger = store => {
   return next => {
@@ -28,7 +26,14 @@ const logger = store => {
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
-const store = createStore(rootReducer, composeEnhancers(applyMiddleware(logger, thunk)));
+const persistedState = loadState();
+const store = createStore(filmsApp, persistedState, composeEnhancers(applyMiddleware(logger, thunk)));
+
+store.subscribe(() => {
+  saveState({
+    srv: store.getState().srv,
+  });
+});
 
 
 ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));

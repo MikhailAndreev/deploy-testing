@@ -1,4 +1,11 @@
+html {
+  font-family: Open Sans,sans-serif;
+}
 
+body * {
+  margin: 0;
+  padding: 0;
+}
 @mixin flex-container($f-direction, $jst-content: center ) {
   display: flex;
   align-items: center;
@@ -38,6 +45,19 @@
   width: 100%;
   border: 4px solid blue;
   padding: 15px 0;
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+  width: 100%;
+}
+
+.listItem {
+  text-align: left;
+  border: 1px solid hsla(0,0%,80%,.65);
+  padding: 5px 20px;
+  margin: 5px 0;
 }
 
 .title {
@@ -52,10 +72,22 @@
   padding-left: 20px;
 }
 
-.btn-tabs {
+.btn-tab {
   max-width: 200px;
   width: 100%;
   height: 30px;
+  background-color: #ededef;
+  border: 1px solid hsla(0,0%,80%,.65);
+  margin: 0 15px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  &__active {
+    background-color: aqua;
+  }
+  &:hover {
+    background-color: lightblue;
+  }
 }
 
 .btn-hide {
