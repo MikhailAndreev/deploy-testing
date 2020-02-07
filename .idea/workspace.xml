@@ -2,19 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cef5f553-2d84-405b-bad3-c728adae0e5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/ListItem/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/localStorage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/bookmark-active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/bookmark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/FilmPage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/filmsList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/axios-data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/CustomButton/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/CustomButton/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/CustomInput/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/CustomInput/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/ListItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/ListItem/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/FilterApp/FilterApp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FilterApp/FilterApp.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/FilterApp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FilterApp/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/actionTypes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/actions/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/reducers/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/utility.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/utility.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,23 +49,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/containers/FilterApp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../React/correct-answer" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\containers\FilterApp" />
-      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\store" />
-      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\store\actions" />
-      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src" />
-      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\assets\static-data" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\utils" />
       <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\styles" />
       <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\store" />
       <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\assets\images" />
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\containers\FilterApp" />
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\store" />
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\store\actions" />
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src" />
     </key>
   </component>
   <component name="RunManager">
@@ -112,7 +119,10 @@
       <workItem from="1580154250492" duration="215000" />
       <workItem from="1580372052270" duration="7451000" />
       <workItem from="1580465775332" duration="13515000" />
-      <workItem from="1580801746176" duration="32679000" />
+      <workItem from="1580801746176" duration="33044000" />
+      <workItem from="1580894683412" duration="17598000" />
+      <workItem from="1580975405419" duration="19041000" />
+      <workItem from="1581069945255" duration="12987000" />
     </task>
     <servers />
   </component>
@@ -120,22 +130,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="21" key="#JavaScript" timestamp="1578917916359">
+    <state x="275" y="21" key="#JavaScript" timestamp="1581013010619">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="21" key="#JavaScript/0.0.1366.728@0.0.1366.728" timestamp="1578917916359" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580802632342">
+    <state x="275" y="21" key="#JavaScript/0.0.1366.728@0.0.1366.728" timestamp="1581013010619" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580978313644">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1580802632342" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1580978313644" />
     <state x="318" y="141" key="EditFileWatcherDialog" timestamp="1579806964580">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="318" y="141" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1579806964580" />
-    <state x="926" y="90" key="FileChooserDialogImpl" timestamp="1580473475684">
+    <state x="926" y="90" key="FileChooserDialogImpl" timestamp="1581071000971">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="926" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580473475684" />
+    <state x="926" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581071000971" />
     <state width="1344" height="174" key="GridCell.Tab.0.bottom" timestamp="1580486262056">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -160,9 +170,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580372281860" />
-    <state x="346" y="49" key="search.everywhere.popup" timestamp="1580819873005">
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1581095763347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1580819873005" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1581095763347" />
+    <state x="339" y="157" key="run.anything.popup" timestamp="1580931270885">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1580931270885" />
+    <state x="346" y="49" key="search.everywhere.popup" timestamp="1580978512314">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1580978512314" />
   </component>
 </project>

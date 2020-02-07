@@ -4,7 +4,7 @@ const CustomInput = (props) => (
     <input
       type="text"
       placeholder={props.placeholder}
-      onChange={props.handleChange}
+      onChange={(e) => props.handleChange(e.target.value)}
       className={props.style}
     />
 

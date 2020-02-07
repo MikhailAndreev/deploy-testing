@@ -1,4 +1,5 @@
 import * as actionTypes from "./actionTypes";
+import { v4 } from 'node-uuid';
 
 export const filmsShow = (value) => {
     return {
@@ -20,23 +21,22 @@ export const activeTabBookmarks = (value) => {
     };
 };
 
-export const storeBookmarks = (film) => {
-    return {
-        type: actionTypes.ADD_TO_BOOKMARKS,
-        film
-    };
-};
-
-export const deleteBookmarks = (id) => {
-    return {
-        type: actionTypes.REMOVE_FROM_BOOKMARKS,
-        id: id
-    };
-};
-
 export const checkFilm = (film) => {
     return {
         type: actionTypes.CHECK_FILM,
         film
+    };
+};
+
+export const searchFilter = (text) => {
+    return {
+        type: actionTypes.SEARCH_FILTER,
+        text
+    };
+};
+
+export const getFilmsList = () => {
+    return {
+        type: actionTypes.GET_FILMS_LIST,
     };
 };

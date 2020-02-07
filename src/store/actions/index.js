@@ -1,10 +1,10 @@
 export {
+  getFilmsList,
   filmsShow,
   activeTabFilms,
   activeTabBookmarks,
-  storeBookmarks,
-  deleteBookmarks,
-  checkFilm
+  checkFilm,
+  searchFilter
 
 } from './service';
 

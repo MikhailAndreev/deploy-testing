@@ -3,6 +3,7 @@ import {Link, Route, BrowserRouter, Switch} from 'react-router-dom';
 
 import FilterApp from "./containers/FilterApp";
 import * as staticData from './assets/static-data';
+import FilmPage from "./containers/FilmPage";
 
 const getAddress = () => {
   console.log(staticData.filmsList)
@@ -17,12 +18,10 @@ class App extends Component {
   render() {
         return(
             <div>
-              <BrowserRouter basename="/path-maker">
                 <Switch>
-                  <Route path='/' component={FilterApp} exact/>
-
+                    <Route path='/film'  component={FilmPage}/>
+                    <Route path='/' exact component={FilterApp}/>
                 </Switch>
-              </BrowserRouter>
             </div>
         );
     }
