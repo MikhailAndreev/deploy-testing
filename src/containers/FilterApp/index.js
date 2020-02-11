@@ -18,6 +18,9 @@ class FilterApp extends Component {
 
   componentDidMount() {
     this.props.onGetFilmsList();
+    this.setState({
+      tagsList: this.props.flm.tags
+    });
     console.log(this.props.flm.tags)
   }
 
@@ -81,7 +84,7 @@ class FilterApp extends Component {
           )
       });
 
-    const renderTagList = this.props.flm.tags && this.props.flm.tags.map((tag, index) => {
+    const renderTagList = this.state.tagsList.map((tag, index) => {
       const isTagClicked = this.props.flm.updatedTags.includes(tag);
         return (
           <TagItem
