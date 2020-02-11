@@ -81,7 +81,7 @@ class FilterApp extends Component {
           )
       });
 
-    const renderTagList = this.props.flm.tags.map((tag, index) => {
+    const renderTagList = this.props.flm.tags && this.props.flm.tags.map((tag, index) => {
       const isTagClicked = this.props.flm.updatedTags.includes(tag);
         return (
           <TagItem
