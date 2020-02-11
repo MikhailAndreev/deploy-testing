@@ -97,8 +97,65 @@ body * {
 }
 
 .bookmark-img {
-  align-self: end;
   width: 20px;
   height: 20px;
   background-size: 20px, 20px;
+}
+
+////////////////////// TAG SECTION
+
+.tagsList {
+  @include flex-container(row, space-around);
+  flex-wrap: wrap;
+  max-width: 500px;
+}
+
+.tagItem {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  height: 10px;
+  align-items: center;
+  border: 1px solid red;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.tagItem__active {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  height: 10px;
+  align-items: center;
+  background-color: lightblue;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid lightblue;
+}
+
+
+.listItem__tagItem {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  height: 10px;
+  align-items: center;
+  border: 1px solid lightblue;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px;
+}
+.listItem__tagItem__active {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+  height: 10px;
+  align-items: center;
+  border: 1px solid lightblue;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px;
 }

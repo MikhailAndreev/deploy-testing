@@ -2,26 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cef5f553-2d84-405b-bad3-c728adae0e5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/bookmark-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/bookmark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/FilmPage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/filmsList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/axios-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/TagItem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/filmsList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/atoms/CustomInput/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/CustomInput/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/atoms/ListItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/ListItem/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/FilterApp/FilterApp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FilterApp/FilterApp.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/FilterApp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FilterApp/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/filter.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/actions/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/filmsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/filmsList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/filter.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../React/correct-answer" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Taxnet/films-filter-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -122,7 +116,11 @@
       <workItem from="1580801746176" duration="33044000" />
       <workItem from="1580894683412" duration="17598000" />
       <workItem from="1580975405419" duration="19041000" />
-      <workItem from="1581069945255" duration="12987000" />
+      <workItem from="1581069945255" duration="22141000" />
+      <workItem from="1581153478993" duration="10534000" />
+      <workItem from="1581239827817" duration="6373000" />
+      <workItem from="1581326470462" duration="8499000" />
+      <workItem from="1581410007910" duration="13903000" />
     </task>
     <servers />
   </component>
@@ -130,22 +128,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="21" key="#JavaScript" timestamp="1581013010619">
+    <state x="263" y="24" key="#JavaScript" timestamp="1581099462479">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="21" key="#JavaScript/0.0.1366.728@0.0.1366.728" timestamp="1581013010619" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580978313644">
+    <state x="263" y="24" key="#JavaScript/0.0.1366.728@0.0.1366.728" timestamp="1581099462479" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581098245044">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1580978313644" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581098245044" />
     <state x="318" y="141" key="EditFileWatcherDialog" timestamp="1579806964580">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="318" y="141" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1579806964580" />
-    <state x="926" y="90" key="FileChooserDialogImpl" timestamp="1581071000971">
+    <state x="926" y="90" key="FileChooserDialogImpl" timestamp="1581103397589">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="926" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581071000971" />
+    <state x="926" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581103397589" />
     <state width="1344" height="174" key="GridCell.Tab.0.bottom" timestamp="1580486262056">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
