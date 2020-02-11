@@ -22,6 +22,7 @@ class FilterApp extends Component {
       tagsList: this.props.flm.tags
     });
     console.log(this.props.flm.tags)
+    console.log(this.props.flm.films)
   }
 
   showMoreFilm = () => {
