@@ -21,7 +21,7 @@ class FilterApp extends Component {
   componentDidMount() {
     this.props.onGetFilmsList();
     this.setState({
-      tagsList: this.props.flm.tags
+      tagsList: staticData.tagsList
     });
     console.log(this.props.flm.tags)
     console.log(staticData.tagsList)
