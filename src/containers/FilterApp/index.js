@@ -7,6 +7,8 @@ import * as actionCreators from '../../store/actions/index'
 import ListItem from "../../components/atoms/ListItem";
 import axios from '../../utils/axios-data';
 import TagItem from "../../components/atoms/TagItem";
+import * as staticData from '../../assets/static-data';
+
 
 
 class FilterApp extends Component {
@@ -22,7 +24,7 @@ class FilterApp extends Component {
       tagsList: this.props.flm.tags
     });
     console.log(this.props.flm.tags)
-    console.log(this.props.flm.films)
+    console.log(staticData.tagsList)
   }
 
   showMoreFilm = () => {
