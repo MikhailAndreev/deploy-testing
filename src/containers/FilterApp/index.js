@@ -44,7 +44,7 @@ class FilterApp extends Component {
 
   render() {
     const {updatedFilms, films} = this.props.flm;
-    const isActiveBtn = (Math.ceil(films.length) === this.state.count) || this.props.flm.updatedTags.length > 0;
+    const isActiveBtn = Math.ceil(films.length) === this.state.count || this.props.flm.updatedTags.length && this.props.flm.updatedTags.length > 0;
     const renderFilmsList = updatedFilms.slice(0, this.state.count).map((film, index) => {
       return (
         <ListItem

@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cef5f553-2d84-405b-bad3-c728adae0e5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/TagItem/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/filmsList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/CustomInput/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/CustomInput/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/ListItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/ListItem/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/FilterApp/FilterApp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FilterApp/FilterApp.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/FilterApp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FilterApp/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/actionTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/filter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/filmsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/filmsList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/filter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +108,7 @@
       <workItem from="1581153478993" duration="10534000" />
       <workItem from="1581239827817" duration="6373000" />
       <workItem from="1581326470462" duration="8499000" />
-      <workItem from="1581410007910" duration="13903000" />
+      <workItem from="1581410007910" duration="14381000" />
     </task>
     <servers />
   </component>
