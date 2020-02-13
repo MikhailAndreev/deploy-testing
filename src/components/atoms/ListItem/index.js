@@ -4,7 +4,7 @@ import activeBookmarkImg from '../../../assets/images/bookmark-active.png';
 import '../../../containers/FilterApp/FilterApp.scss';
 import TagItem from "../TagItem";
 
-const ListItem = (props) => {
+const listItem = (props) => {
     const [isBookmark, setToBookmark] = useState(false);
     const makeBookmark = () => {
         const isChecked = props.data.some(item => item.title === props.title);
@@ -42,4 +42,4 @@ const ListItem = (props) => {
     )
 };
 
-export default ListItem;
+export default listItem;

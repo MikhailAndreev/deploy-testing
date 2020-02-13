@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cef5f553-2d84-405b-bad3-c728adae0e5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/templates/BookmarkList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/templates/FilmsList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/templates/SearchBlock/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/templates/Tabs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/templates/TagsList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/withClass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/ListItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/ListItem/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/TagItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/TagItem/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/FilterApp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FilterApp/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/filmsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/filmsList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/filmsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/filmsList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,6 +21,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IgnoredFileRootStore">
@@ -20,7 +36,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1WKlXxaKK65QULS0vPa7oGPoEmu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -107,12 +125,27 @@
       <workItem from="1581153478993" duration="10534000" />
       <workItem from="1581239827817" duration="6373000" />
       <workItem from="1581326470462" duration="8499000" />
-      <workItem from="1581410007910" duration="15908000" />
+      <workItem from="1581410007910" duration="19448000" />
+      <workItem from="1581499084255" duration="2481000" />
+      <workItem from="1581585849255" duration="15970000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="263" y="24" key="#JavaScript" timestamp="1581099462479">
