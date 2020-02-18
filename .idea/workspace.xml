@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cef5f553-2d84-405b-bad3-c728adae0e5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/ListItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/ListItem/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/FilmInfo/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/StarShipInfo/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/templates/BookmarkList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/templates/BookmarkList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/templates/FilmsList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/templates/FilmsList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/FilterApp/FilterApp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FilterApp/FilterApp.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/FilterApp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FilterApp/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/axios-films.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/axios-films.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,6 +19,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IgnoredFileRootStore">
@@ -20,7 +34,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1WKlXxaKK65QULS0vPa7oGPoEmu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,12 +46,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Taxnet/films-filter-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\components\molecules" />
       <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\utils" />
       <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\styles" />
       <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\store" />
@@ -107,30 +124,57 @@
       <workItem from="1581153478993" duration="10534000" />
       <workItem from="1581239827817" duration="6373000" />
       <workItem from="1581326470462" duration="8499000" />
-      <workItem from="1581410007910" duration="15908000" />
+      <workItem from="1581410007910" duration="19448000" />
+      <workItem from="1581499084255" duration="2481000" />
+      <workItem from="1581585849255" duration="19194000" />
+      <workItem from="1581673332437" duration="583000" />
+      <workItem from="1581868156242" duration="6960000" />
+      <workItem from="1581937256582" duration="3337000" />
+      <workItem from="1582044175085" duration="678000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="263" y="24" key="#JavaScript" timestamp="1581099462479">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="263" y="24" key="#JavaScript/0.0.1366.728@0.0.1366.728" timestamp="1581099462479" />
+    <state x="435" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581872723117">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="435" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1581872723117" />
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581098245044">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581098245044" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1582044856869">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1582044856869" />
     <state x="318" y="141" key="EditFileWatcherDialog" timestamp="1579806964580">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="318" y="141" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1579806964580" />
-    <state x="926" y="90" key="FileChooserDialogImpl" timestamp="1581103397589">
+    <state x="926" y="90" key="FileChooserDialogImpl" timestamp="1581938222417">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="926" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581103397589" />
+    <state x="926" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581938222417" />
     <state width="1344" height="174" key="GridCell.Tab.0.bottom" timestamp="1580486262056">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -159,10 +203,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1581095763347" />
-    <state x="339" y="157" key="run.anything.popup" timestamp="1580931270885">
+    <state x="339" y="157" key="run.anything.popup" timestamp="1581872555731">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1580931270885" />
+    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1581872555731" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1580978512314">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

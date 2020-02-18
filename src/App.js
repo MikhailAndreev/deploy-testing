@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Link, Route, BrowserRouter, Switch} from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import FilterApp from "./containers/FilterApp";
 import * as staticData from './assets/static-data';

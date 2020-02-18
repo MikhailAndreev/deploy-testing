@@ -3,16 +3,12 @@ import * as actionTypes from '../actions/actionTypes';
 import {updateObject} from "../../utils/utility";
 
 const initialState = {
-  films: staticData.filmsList.slice(0, 30),
+  films: staticData.filmsList,
   updatedFilms: [],
   bookmarks: [],
   tags: staticData.tagsList,
   updatedTags: [],
-  filteredVal: {
-    inpVal: '',
-    tagFilter: []
-  },
-  filter: []
+  searchVal: '',
 };
 
 const reducer = (state = initialState, action) => {
@@ -22,7 +18,7 @@ const reducer = (state = initialState, action) => {
       return updateObject(state, {
         updatedFilms: initialState.updatedFilms.concat(state.films),
         updatedTags: initialState.updatedTags,
-        filteredVal: initialState.filteredVal
+        searchVal: initialState.searchVal
       });
 
     case actionTypes.CHECK_FILM:
@@ -46,11 +42,7 @@ const reducer = (state = initialState, action) => {
       return updateObject(state, {
         ...state,
         updatedFilms: updFiltered,
-        // updatedFilms: searchFiltered,
-        filteredVal: {
-          ...state.filteredVal,
-          inpVal: action.text
-        },
+        searchVal: action.text,
       });
 
     case actionTypes.TAG_FILTER:
@@ -59,17 +51,11 @@ const reducer = (state = initialState, action) => {
       const tagFiltered = state.films.filter(item => tagVal.every(tag => item.tags.some(t => t === tag)));
       const filterText = action.inpVal;
       const updSearchFiltered = tagFiltered.filter(item => item.title.toUpperCase().indexOf(filterText.toUpperCase()) !== -1);
-      console.log('Is tag duplicate ?', checkSame);
-      console.log('array of tags', state.updatedTags);
 
       return updateObject(state, {
         ...state,
         updatedFilms: updSearchFiltered,
         updatedTags: tagVal,
-        filteredVal: {
-          ...state.filteredVal,
-          tagFilter: tagVal
-        },
       });
   }
   return state
