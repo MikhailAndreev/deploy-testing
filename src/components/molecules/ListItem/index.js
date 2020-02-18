@@ -11,6 +11,12 @@ const listItem = (props) => {
         setToBookmark(isChecked);
         props.handleClick();
     };
+
+    useEffect(() => {
+        const isChecked = props.data.some(item => item.title === props.title);
+        setToBookmark(isChecked);
+    });
+
     const renderTags  = props.tags.map((tag, index) => {
         const isTagChosen = props.dataTags && props.dataTags.includes(tag)
         return (
@@ -22,10 +28,7 @@ const listItem = (props) => {
           />
         )
     });
-    useEffect(() => {
-        const isChecked = props.data.some(item => item.title === props.title);
-        setToBookmark(isChecked);
-    });
+
     return (
         <div
             className={props.style}
@@ -41,5 +44,6 @@ const listItem = (props) => {
         </div>
     )
 };
+
 
 export default listItem;

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../../containers/FilterApp/FilterApp.scss';
-import ListItem from "../../atoms/ListItem";
+import ListItem from "../../molecules/ListItem";
 import WithClass from '../../../hoc/withClass';
 
 const bookmarkList = (props) => {
@@ -22,9 +22,17 @@ const bookmarkList = (props) => {
   });
   return (
     <WithClass classes='list-films'>
-      <WithClass classes='list'>
-        {renderBookmarks}
-      </WithClass>
+      {props.bookmarks.length > 0 ?
+        <WithClass classes='list'>
+          {renderBookmarks}
+        </WithClass>
+
+        :
+        <p>
+          list is empty
+        </p>
+
+      }
     </WithClass>
   )
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../../containers/FilterApp/FilterApp.scss';
-import ListItem from "../../atoms/ListItem";
+import ListItem from "../../molecules/ListItem";
 import WithClass from '../../../hoc/withClass';
 import CustomButton from "../../atoms/CustomButton";
 
@@ -24,18 +24,27 @@ const filmsList = (props) => {
     )
   });
   return (
-    <WithClass classes='list-films'>
+    <div>
+      {props.filmsList.length > 0 ?
+        <WithClass classes='list-films'>
 
-      <WithClass classes='list'>
-        {renderFilms}
-      </WithClass>
+          <WithClass classes='list'>
+            {renderFilms}
+          </WithClass>
 
-      <CustomButton
-        name={props.btnName}
-        style={`${props.isActive ? 'btn-hide' : ''} ${'btn-tab'}`}
-        handleClick={props.handleShowMore}
-      />
-    </WithClass>
+          <CustomButton
+            name={props.btnName}
+            style={`${props.isActive ? 'btn-hide' : ''} ${'btn-tab'}`}
+            handleClick={props.handleShowMore}
+          />
+        </WithClass>
+        :
+        <p>
+          list is empty
+        </p>
+      }
+
+    </div>
   )
 };
 

@@ -27,7 +27,6 @@ body * {
   @include flex-container(row, center);
   max-width: 550px;
   width: 100%;
-  border: 4px solid red;
   padding: 15px 0;
 }
 
@@ -35,7 +34,6 @@ body * {
   @include flex-container(row, center);
   max-width: 550px;
   width: 100%;
-  border: 4px solid green;
   padding: 15px 0;
 }
 
@@ -43,9 +41,9 @@ body * {
   @include flex-container(column, space-around);
   max-width: 550px;
   width: 100%;
-  border: 4px solid blue;
   padding: 15px 0;
   text-decoration: none;
+  text-align: center;
 }
 
 .list {
@@ -58,7 +56,11 @@ body * {
   text-align: left;
   border: 1px solid hsla(0,0%,80%,.65);
   padding: 5px 20px;
-  margin: 5px 0;
+  margin: 15px 0;
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 }
 
 .title {
@@ -88,7 +90,9 @@ body * {
     background-color: aqua;
   }
   &:hover {
-    background-color: lightblue;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-out;
+    background-color: aqua;
   }
 }
 

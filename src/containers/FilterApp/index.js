@@ -47,7 +47,6 @@ class FilterApp extends Component {
     console.log('FILMS LENGTH', Math.ceil(films.length / this.state.count));
     console.log('STATE COUNT', this.state.count);
 
-
     return (
       <WithClass classes='filter-section'>
         <SearchBlock
@@ -71,9 +70,6 @@ class FilterApp extends Component {
           onBookmarkClick={this.props.onTabBookmarks}
         />
 
-        <div className='title'>
-          pizza
-        </div>
 
         {this.props.srv.isTabFilms ?
           <FilmsList
