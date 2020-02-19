@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import bookmarkImg from '../../../assets/images/bookmark.png';
 import activeBookmarkImg from '../../../assets/images/bookmark-active.png';
 import '../../../containers/FilterApp/FilterApp.scss';
-import TagItem from "../TagItem";
+import TagItem from "../../atoms/TagItem";
 
 const listItem = (props) => {
     const [isBookmark, setToBookmark] = useState(false);
