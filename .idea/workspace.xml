@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cef5f553-2d84-405b-bad3-c728adae0e5d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/containers/FilterApp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FilterApp/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +20,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1WKlXxaKK65QULS0vPa7oGPoEmu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -35,18 +37,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\utils" />
-      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\styles" />
-      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\store" />
-      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\assets\images" />
       <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\containers\FilterApp" />
       <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\store" />
       <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\store\actions" />
       <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\utils" />
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\styles" />
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses\src\store" />
+      <recent name="C:\Users\Kirill\WebstormProjects\React+webpack\react-webpack-courses" />
     </key>
   </component>
   <component name="RunManager">
@@ -108,6 +110,7 @@
       <workItem from="1581239827817" duration="6373000" />
       <workItem from="1581326470462" duration="8499000" />
       <workItem from="1581410007910" duration="15908000" />
+      <workItem from="1582133898329" duration="97000" />
     </task>
     <servers />
   </component>
