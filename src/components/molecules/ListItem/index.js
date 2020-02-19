@@ -4,13 +4,19 @@ import activeBookmarkImg from '../../../assets/images/bookmark-active.png';
 import '../../../containers/FilterApp/FilterApp.scss';
 import TagItem from "../TagItem";
 
-const ListItem = (props) => {
+const listItem = (props) => {
     const [isBookmark, setToBookmark] = useState(false);
     const makeBookmark = () => {
         const isChecked = props.data.some(item => item.title === props.title);
         setToBookmark(isChecked);
         props.handleClick();
     };
+
+    useEffect(() => {
+        const isChecked = props.data.some(item => item.title === props.title);
+        setToBookmark(isChecked);
+    });
+
     const renderTags  = props.tags.map((tag, index) => {
         const isTagChosen = props.dataTags && props.dataTags.includes(tag)
         return (
@@ -22,10 +28,7 @@ const ListItem = (props) => {
           />
         )
     });
-    useEffect(() => {
-        const isChecked = props.data.some(item => item.title === props.title);
-        setToBookmark(isChecked);
-    });
+
     return (
         <div
             className={props.style}
@@ -42,4 +45,5 @@ const ListItem = (props) => {
     )
 };
 
-export default ListItem;
+
+export default listItem;

@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import '../../../containers/FilterApp/FilterApp.scss';
 
-const TagItem = (props) => {
+const tagItem = (props) => {
 
   return (
     <div
@@ -13,4 +13,4 @@ const TagItem = (props) => {
   )
 };
 
-export default TagItem;
+export default tagItem;

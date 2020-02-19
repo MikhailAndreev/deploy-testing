@@ -22,7 +22,7 @@ export const searchFilter = (text) => {
 
 export const tagFilter = (tag) => {
   return (dispatch, getState) => {
-    const inpVal = getState().flm.filteredVal.inpVal;
+    const inpVal = getState().flm.searchVal;
     dispatch({
       type: actionTypes.TAG_FILTER,
       tag,
