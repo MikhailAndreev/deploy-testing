@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f734b6e6-d64f-404b-a98a-c5c0f4d0ba7e" name="Default Changelist" comment="Merge branch 'master' of github.com:MikhailAndreev/deploy-testing&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change afterPath="$PROJECT_DIR$/src/containers/FilmPage/FilmPage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/molecules/ListItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/ListItem/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/templates/FilmsList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/templates/FilmsList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/FilmPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FilmPage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/FilterApp/FilterApp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FilterApp/FilterApp.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +92,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cef5f553-2d84-405b-bad3-c728adae0e5d" name="Default Changelist" comment="" />
+      <changelist id="f734b6e6-d64f-404b-a98a-c5c0f4d0ba7e" name="Default Changelist" comment="Merge branch 'master' of github.com:MikhailAndreev/deploy-testing&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
       <created>1578906210996</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -112,6 +118,7 @@
       <workItem from="1581326470462" duration="8499000" />
       <workItem from="1581410007910" duration="15908000" />
       <workItem from="1582133898329" duration="97000" />
+      <workItem from="1582190847659" duration="15102000" />
     </task>
     <servers />
   </component>
@@ -123,7 +130,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -178,13 +187,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1581095763347" />
-    <state x="339" y="157" key="run.anything.popup" timestamp="1580931270885">
+    <state x="339" y="157" key="run.anything.popup" timestamp="1582197611087">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1580931270885" />
+    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1582197611087" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1580978512314">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1580978512314" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/templates/FilmsList/index.js</url>
+          <line>11</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

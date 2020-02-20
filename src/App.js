@@ -19,7 +19,7 @@ class App extends Component {
         return(
             <div>
                 <Switch>
-                    <Route path='/film'  component={FilmPage}/>
+                    <Route path='/film/:filmName'  component={FilmPage}/>
                     <Route path='/' exact component={FilterApp}/>
                 </Switch>
             </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter} from 'react-router-dom';
+import { BrowserRouter, HashRouter} from 'react-router-dom';
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import {Provider} from 'react-redux';
 import thunk from 'redux-thunk';
@@ -36,9 +36,9 @@ store.subscribe(() => {
 
 const app = (
     <Provider store={store}>
-      <BrowserRouter>
-        <App/>
-      </BrowserRouter>
+      <HashRouter>
+          <App/>
+      </HashRouter>
     </Provider>
 
 );

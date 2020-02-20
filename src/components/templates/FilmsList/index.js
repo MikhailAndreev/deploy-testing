@@ -11,6 +11,7 @@ const filmsList = (props) => {
       <ListItem
         handleClick={() => props.onCheckFilm(film.title)}
         key={index}
+        id={index}
         style='listItem'
         imageStyle='bookmark-img'
         title={film.title}

@@ -1,0 +1,29 @@
+@import "../../containers/FilterApp/FilterApp.scss";
+
+
+.filmpage-wrapper {
+  width: 100%;
+  padding: 40px;
+}
+
+.nav-section {
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.film-section-wrapper {
+  @include flex-container(row, flex-start, flex-start);
+}
+
+.film-section {
+  @include flex-container(column, center, flex-start);
+  text-align: left;
+  margin-left: 25px;
+}
+
+.img-section {
+  width: 200px;
+  height: 300px;
+  border: 1px solid lightgreen;
+  background-color: lightgrey;
+}

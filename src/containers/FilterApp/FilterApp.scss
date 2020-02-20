@@ -6,9 +6,9 @@ body * {
   margin: 0;
   padding: 0;
 }
-@mixin flex-container($f-direction, $jst-content: center ) {
+@mixin flex-container($f-direction, $jst-content: center, $alg-items: center ) {
   display: flex;
-  align-items: center;
+  align-items: $alg-items;
   justify-content: $jst-content;
   flex-direction: $f-direction;
 }

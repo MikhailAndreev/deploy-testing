@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import { NavLink } from "react-router-dom";
 import bookmarkImg from '../../../assets/images/bookmark.png';
 import activeBookmarkImg from '../../../assets/images/bookmark-active.png';
 import '../../../containers/FilterApp/FilterApp.scss';
@@ -33,10 +34,11 @@ const listItem = (props) => {
         <div
             className={props.style}
         >
-            <p onClick={props.onNavigate}>{props.title}</p>
+            {/*<p onClick={props.onNavigate}>{props.title}</p>*/}
+            <NavLink exact to={`${'/film/'}${props.title}`}>{props.title}</NavLink>
             {renderTags}
             <img
-                id={props.id}
+                // id={props.id}
                 onClick={makeBookmark}
                 className='bookmark-img'
                 src={isBookmark ? activeBookmarkImg : bookmarkImg}
