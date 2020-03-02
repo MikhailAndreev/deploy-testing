@@ -18,3 +18,7 @@ env:
 settings:
   react:
     version: "16.6"
+
+rules:
+  "no-console": "off",
+  "linebreak-style": "window"

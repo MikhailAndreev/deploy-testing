@@ -54,6 +54,7 @@ class FilterApp extends Component {
           placeholder='поиск...'
           handleChange={this.props.onSearchFilter}
         />
+        
 
         <TagsList
           updTags={updatedTags}

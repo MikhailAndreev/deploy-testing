@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f734b6e6-d64f-404b-a98a-c5c0f4d0ba7e" name="Default Changelist" comment="Merge branch 'master' of github.com:MikhailAndreev/deploy-testing&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/FilmPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FilmPage/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Taxnet/films-filter-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../swapi" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -112,7 +111,9 @@
       <workItem from="1581326470462" duration="8499000" />
       <workItem from="1581410007910" duration="15908000" />
       <workItem from="1582133898329" duration="97000" />
-      <workItem from="1582190847659" duration="15916000" />
+      <workItem from="1582190847659" duration="16255000" />
+      <workItem from="1582360783127" duration="395000" />
+      <workItem from="1582362806224" duration="803000" />
     </task>
     <servers />
   </component>
@@ -149,10 +150,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="318" y="141" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1579806964580" />
-    <state x="926" y="90" key="FileChooserDialogImpl" timestamp="1581103397589">
+    <state x="926" y="90" key="FileChooserDialogImpl" timestamp="1582361187657">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="926" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581103397589" />
+    <state x="926" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582361187657" />
     <state width="1344" height="174" key="GridCell.Tab.0.bottom" timestamp="1580486262056">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -196,7 +197,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/templates/FilmsList/index.js</url>
           <line>11</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
