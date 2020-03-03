@@ -8,7 +8,7 @@ import axios from '../../utils/axios-data';
 import * as staticData from '../../assets/static-data';
 import WithClass from '../../hoc/withClass';
 import SearchBlock from '../../components/templates/SearchBlock';
-import TagsList from '../../components/templates/TagsList';
+import TagSection from '../../components/templates/TagsList';
 import Tabs from '../../components/templates/Tabs';
 import FilmsList from '../../components/templates/FilmsList';
 import BookmarkList from '../../components/templates/BookmarkList';
@@ -48,15 +48,17 @@ class FilterApp extends Component {
     console.log('STATE COUNT', this.state.count);
 
     return (
-      <WithClass classes='filter-section'>
+      <WithClass 
+      wrapperStyle='filter-wrapper'
+      classes='filter-section'>
+        
         <SearchBlock
           style='input-search'
           placeholder='поиск...'
           handleChange={this.props.onSearchFilter}
         />
-        
 
-        <TagsList
+        <TagSection
           updTags={updatedTags}
           tagsList={this.state.tagsList}
           tagClicked={this.props.onTagFilter}
