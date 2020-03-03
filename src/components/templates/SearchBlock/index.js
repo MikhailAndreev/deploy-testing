@@ -12,8 +12,6 @@ const searchBlock = (props) => {
         placeholder={props.placeholder}
         handleChange={props.handleChange}
       />
-
-      <button>поиск</button>
     </WithClass>
   )
 };

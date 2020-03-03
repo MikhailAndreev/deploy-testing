@@ -25,7 +25,7 @@ const filmsList = (props) => {
     )
   });
   return (
-    <div>
+    <>
       {props.filmsList.length > 0 ?
         <WithClass classes='list-films'>
 
@@ -45,7 +45,7 @@ const filmsList = (props) => {
         </p>
       }
 
-    </div>
+    </>
   )
 };
 

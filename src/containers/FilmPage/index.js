@@ -68,7 +68,7 @@ class FilmPage extends Component {
             <button
               onClick={this.onCheck}
               >
-              {isBookmark ? 'УДАЛИТЬ ИЗ ЗАКЛАДОК' : 'ДОБАВИТЬ В ЗАКЛАДКИ'}
+              {isBookmark ? 'УДАЛИТЬ С ЗАКЛАДОК' : 'ДОБАВИТЬ В ЗАКЛАДКИ'}
             </button>
           </WithClass>
         </WithClass>
