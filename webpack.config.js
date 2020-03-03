@@ -10,7 +10,6 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: ''
   },
-  devtool: 'cheap-module-eval-source-map',
   module: {
     rules: [
       {
@@ -43,11 +42,14 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        loader: ['style-loader', 'css-loader?url=false', 'sass-loader'],
+        loader: ['style-loader', 'css-loader?url=true', 'sass-loader'],
       },
       {
-        test: /\.(png|svg|jpe?g|gif)$/,
-        loader: 'url-loader?limit=8000&name=images/[name].[ext]'
+        test: /\.(png|jpg|svg|ttf|eot|woff|woff2)$/,
+        loader: 'file-loader',
+        options: {
+          name: '[path][name].[ext]'
+        }
       }
     ]
   },

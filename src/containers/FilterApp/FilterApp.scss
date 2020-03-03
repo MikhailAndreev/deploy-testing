@@ -76,6 +76,11 @@ body * {
   padding-left: 20px;
 }
 
+.input-group-text.search-icon {
+  background: url('../../assets/images/search-icon.png') no-repeat center;
+  background-size: 25px 25px;
+}
+
 .btn-tab {
   max-width: 200px;
   width: 100%;

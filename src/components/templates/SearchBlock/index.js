@@ -9,6 +9,7 @@ const searchBlock = (props) => {
     <WithClass classes='search-block'>
       <CustomInput
         style={props.style}
+        searchIconStyle={props.iconStyle}
         placeholder={props.placeholder}
         handleChange={props.handleChange}
       />

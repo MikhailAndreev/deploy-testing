@@ -54,6 +54,7 @@ class FilterApp extends Component {
         
         <SearchBlock
           style='input-search'
+          iconStyle='search-icon'
           placeholder='поиск...'
           handleChange={this.props.onSearchFilter}
         />
