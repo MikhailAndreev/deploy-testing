@@ -4,6 +4,7 @@ export const CHECK_FILM = 'CHECK_FILM';
 export const SEARCH_FILTER = 'SEARCH_FILTER';
 export const GET_FILMS_LIST = 'GET_FILMS_LIST';
 export const TAG_FILTER = 'TAG_FILTER';
+export const TAG_DELETE = 'TAG_DELETE';
 
 
 

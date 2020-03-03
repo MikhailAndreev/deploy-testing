@@ -27,6 +27,7 @@ const tagSection = (props) => {
         style='tagItem'
        /*  closeIcon={<CloseIcon clicked={() => props.tagClicked(tag)}/>} */
         closeIcon={true}
+        handleDelete={() => props.deleteTag(tag)}
       />
     )
   });

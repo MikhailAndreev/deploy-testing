@@ -7,5 +7,6 @@ export {
   getFilmsList,
   checkFilm,
   searchFilter,
-  tagFilter
+  tagFilter,
+  tagDelete
 } from './filmsList';

@@ -32,3 +32,16 @@ export const tagFilter = (tag) => {
 
 };
 
+export const tagDelete = (tag) => {
+  console.log('DELETE TAG')
+  return (dispatch, getState) => {
+    const inpVal = getState().flm.searchVal;
+    dispatch({
+      type: actionTypes.TAG_DELETE,
+      tag,
+      inpVal
+    })
+  }
+
+};
+

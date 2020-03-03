@@ -62,6 +62,7 @@ class FilterApp extends Component {
           updTags={updatedTags}
           tagsList={this.state.tagsList}
           tagClicked={this.props.onTagFilter}
+          deleteTag={this.props.onDeleteTag}
         />
 
         <Tabs
@@ -115,7 +116,8 @@ const mapDispatchToProps = dispatch => {
     onTabBookmarks: () => dispatch(actionCreators.activeTabBookmarks()),
     onCheckFilm: (film) => dispatch(actionCreators.checkFilm(film)),
     onSearchFilter: (text) => dispatch(actionCreators.searchFilter(text)),
-    onTagFilter: (tag) => dispatch(actionCreators.tagFilter(tag))
+    onTagFilter: (tag) => dispatch(actionCreators.tagFilter(tag)),
+    onDeleteTag: (tag) => dispatch(actionCreators.tagDelete(tag))
   }
 };
 

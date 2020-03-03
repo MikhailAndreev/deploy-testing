@@ -12,7 +12,7 @@ const tagItem = (props) => {
     >
       {props.tag}
       <div >
-      <CloseIcon clicked={props.handleClick}/>
+      <CloseIcon clicked={props.handleDelete}/>
       </div>
     </div>
     }

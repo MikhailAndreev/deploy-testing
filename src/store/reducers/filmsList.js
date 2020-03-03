@@ -1,6 +1,6 @@
 import * as staticData from '../../assets/static-data';
 import * as actionTypes from '../actions/actionTypes';
-import {updateObject} from "../../utils/utility";
+import { updateObject } from "../../utils/utility";
 
 const initialState = {
   films: staticData.filmsList,
@@ -46,8 +46,27 @@ const reducer = (state = initialState, action) => {
       });
 
     case actionTypes.TAG_FILTER:
-      const checkSame = state.updatedTags.find(tag => tag === action.tag);
-      const tagVal = state.updatedTags.concat(action.tag).filter(tag => tag !== checkSame);
+      const checkSame = state.updatedTags.includes(action.tag);
+      console.log(checkSame)
+      if (!checkSame) {
+        const tagVal = state.updatedTags.concat(action.tag);
+        const tagFiltered = state.films.filter(item => tagVal.every(tag => item.tags.some(t => t === tag)));
+        const filterText = action.inpVal;
+        const updSearchFiltered = tagFiltered.filter(item => item.title.toUpperCase().indexOf(filterText.toUpperCase()) !== -1);
+
+        return updateObject(state, {
+          ...state,
+          updatedFilms: updSearchFiltered,
+          updatedTags: tagVal,
+        });
+      }
+      return updateObject(state, {
+        ...state,
+      });
+
+    case actionTypes.TAG_DELETE:
+      const sameTag = state.updatedTags.find(tag => tag === action.tag);
+      const tagVal = state.updatedTags.concat(action.tag).filter(tag => tag !== sameTag);
       const tagFiltered = state.films.filter(item => tagVal.every(tag => item.tags.some(t => t === tag)));
       const filterText = action.inpVal;
       const updSearchFiltered = tagFiltered.filter(item => item.title.toUpperCase().indexOf(filterText.toUpperCase()) !== -1);
@@ -57,6 +76,7 @@ const reducer = (state = initialState, action) => {
         updatedFilms: updSearchFiltered,
         updatedTags: tagVal,
       });
+
   }
   return state
 };
