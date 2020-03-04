@@ -12,8 +12,6 @@ const filmsList = (props) => {
         handleClick={() => props.onCheckFilm(film.title)}
         key={index}
         id={index}
-        style='listItem'
-        imageStyle='bookmark-img'
         title={film.title}
         data={props.bookmarks}
         onNavigate={props.onNavigate}
@@ -29,9 +27,9 @@ const filmsList = (props) => {
       {props.filmsList.length > 0 ?
         <WithClass classes='list-films'>
 
-          <WithClass classes='list'>
+          <>
             {renderFilms}
-          </WithClass>
+          </>
 
           <CustomButton
             name={props.btnName}

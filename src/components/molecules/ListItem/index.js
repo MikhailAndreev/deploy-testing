@@ -1,8 +1,8 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 import bookmarkImg from '../../../assets/images/bookmark.png';
 import activeBookmarkImg from '../../../assets/images/bookmark-active.png';
-import '../../../containers/FilterApp/FilterApp.scss';
+import './listItem.scss';
 import TagItem from "../../atoms/TagItem";
 
 const listItem = (props) => {
@@ -18,29 +18,32 @@ const listItem = (props) => {
         setToBookmark(isChecked);
     });
 
-    const renderTags  = props.tags.map((tag, index) => {
+    const renderTags = props.tags.map((tag, index) => {
         const isTagChosen = props.dataTags && props.dataTags.includes(tag)
         return (
-          <TagItem
-            key={index}
-            tag={tag}
-            style={`${isTagChosen ? 'listItem__tagItem__active' : 'listItem__tagItem'}`}
+            <TagItem
+                key={index}
+                tag={tag}
+                style={`${isTagChosen ? 'listItem__tagItem__active' : 'listItem__tagItem'}`}
 
-          />
+            />
         )
     });
 
     return (
-        <div
-            className={props.style}
-        >
-            <NavLink exact to={`${'/film/'}${props.title}`}>{props.title}</NavLink>
-            {renderTags}
+        <div className='listItem'>
+            <div className='listItem__anchor'>
+                <NavLink className='listItem__link' exact to={`${'/film/'}${props.title}`}>{props.title}</NavLink>
+                <div className='listItem__tags'>
+                    {renderTags}
+                </div>
+            </div>
+
             <img
                 onClick={makeBookmark}
                 className='bookmark-img'
                 src={isBookmark ? activeBookmarkImg : bookmarkImg}
-                alt=""/>
+                alt="" />
         </div>
     )
 };
