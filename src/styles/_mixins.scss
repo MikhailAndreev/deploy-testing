@@ -1,0 +1,7 @@
+@mixin flex-container($f-direction, $jst-content: center, $alg-items: center, $f-wrap: wrap) {
+    display: flex;
+    align-items: $alg-items;
+    justify-content: $jst-content;
+    flex-direction: $f-direction;
+    flex-wrap: $f-wrap;
+  }
