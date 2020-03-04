@@ -76,6 +76,11 @@ body * {
   padding-left: 20px;
 }
 
+.input-group-text.search-icon {
+  background: url('../../assets/images/search-icon.png') no-repeat center;
+  background-size: 25px 25px;
+}
+
 .btn-tab {
   max-width: 200px;
   width: 100%;
@@ -168,9 +173,19 @@ body * {
   margin: 5px;
 }
 
-.btn-choose-tag {
-  background-color: #d3d3d3;
-  color: rgb(119, 9, 9);
+.btn.dropdown-toggle.btn-choose-tag {
+  background-color: transparent;
+  color: black;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  &:hover, &:focus, &:active {
+    background-color: transparent;
+    color: black;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #ced4da;
+  }
 }
 
 .tag-menu {

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CustomInput = (props) => (
+const InputSearch = (props) => (
 
   <div className="input-group flex-nowrap">
     <input
@@ -13,19 +13,11 @@ const CustomInput = (props) => (
       className={`${'form-control'} ${props.style}`}
     />
 
-    <div className="input-group-append">
-      <span className="input-group-text" id="addon-wrapping"></span>
+    <div className={`${"input-group-append "}`}>
+      <span className={`${"input-group-text "}${props.searchIconStyle}`} id="addon-wrapping"></span>
     </div>
   </div>
 
-
 );
 
-export default CustomInput;
-
-{ /* <input
-      type="text"
-      placeholder={props.placeholder}
-      onChange={(e) => props.handleChange(e.target.value.trim())}
-      className={props.style}
-    /> */ }
+export default InputSearch;

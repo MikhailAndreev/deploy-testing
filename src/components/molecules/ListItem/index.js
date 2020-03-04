@@ -34,11 +34,9 @@ const listItem = (props) => {
         <div
             className={props.style}
         >
-            {/*<p onClick={props.onNavigate}>{props.title}</p>*/}
             <NavLink exact to={`${'/film/'}${props.title}`}>{props.title}</NavLink>
             {renderTags}
             <img
-                // id={props.id}
                 onClick={makeBookmark}
                 className='bookmark-img'
                 src={isBookmark ? activeBookmarkImg : bookmarkImg}
