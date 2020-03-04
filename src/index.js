@@ -8,7 +8,6 @@ import thunk from 'redux-thunk';
 import App from "./App";
 import {loadState, saveState} from './utils/localStorage';
 import filmsApp from "./store/reducers";
-import './styles/_main.scss'
 
 
 

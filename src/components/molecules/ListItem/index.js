@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 import bookmarkImg from '../../../assets/images/bookmark.png';
 import activeBookmarkImg from '../../../assets/images/bookmark-active.png';
-import './listItem.scss';
+import './ListItem.scss';
 import TagItem from "../../atoms/TagItem";
 
 const listItem = (props) => {
