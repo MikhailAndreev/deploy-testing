@@ -33,7 +33,7 @@ const filmsList = (props) => {
 
           <CustomButton
             name={props.btnName}
-            style={`${props.isActive ? 'btn-hide' : ''} ${'btn-tab'}`}
+            style={`${props.isActive ? 'btn-hide' : ''} ${'btn-more'}`}
             handleClick={props.handleShowMore}
           />
         </WithClass>

@@ -82,7 +82,7 @@ class FilterApp extends Component {
             bookmarks={bookmarks}
             onNavigate={this.onNavigate}
             updTags={updatedTags}
-            btnName='More'
+            btnName='Показать еще '
             isActive={isActiveBtn}
             handleShowMore={this.showMoreFilm}
           />
