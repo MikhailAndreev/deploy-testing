@@ -12,7 +12,7 @@
 }
 
 .film-section-wrapper {
-  @include flex-container(row, flex-start, flex-start);
+  @include flex-container(row, flex-start, flex-start, nowrap);
 }
 
 .film-section {

@@ -6,7 +6,7 @@
 }
 
 .listItem {
-  @include flex-container(row, space-between, center, "no-wrap");
+  @include flex-container(row, space-between, center, nowrap);
   width: 100%;
   border: 1px solid $list-item-border-color;
   
