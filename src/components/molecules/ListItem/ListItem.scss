@@ -9,7 +9,6 @@
   @include flex-container(row, space-between, center, nowrap);
   width: 100%;
   border: 1px solid $list-item-border-color;
-  
   padding: 5px 20px;
   margin-bottom: 5px;
   box-shadow: $list-item-box-shadow;
@@ -23,17 +22,10 @@
     box-shadow: $list-item-box-shadow-hovered;
   }
   &__link {
-    text-align: left;
-    font-size: 20px;
-    width: fit-content;
-    color: $list-tem-link-color;
-    font-weight: 700;
+    @extend %film-title-sm;
     &:hover {
-        color: $list-tem-link-hovered;
+        color: $list-item-link-hovered;
         text-decoration: none;
-    }
-    @media screen and (max-width: 480px) {
-      font-size: 16px;
     }
   }
   &__tags {

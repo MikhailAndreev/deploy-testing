@@ -1,6 +1,9 @@
 @import "../../styles/var";
 @import "../../styles/mixins";
 
+
+
+
 .filter-wrapper {
   @include flex-container(column, center);
 }
@@ -60,18 +63,21 @@
 
 .btn-tab {
   @extend %button;
-  font-size: 14px;
   max-width: 200px;
   width: 100%;
   height: 30px;
+  margin: 0 15px;
+  padding: 5px;
   &__active {
+    background-color: #868efd;
+  }
+  &:hover {
     background-color: #868efd;
   }
 }
 
 .btn-more {
   @extend %button;
-  font-size: 12px;
   max-width: 150px;
   width: 100%;
   height: 30px;
