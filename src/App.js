@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import FilterApp from "./containers/FilterApp";
@@ -16,15 +16,15 @@ class App extends Component {
   }
 
   render() {
-        return(
-            <div>
-                <Switch>
-                    <Route path='/film/:filmName'  component={FilmPage}/>
-                    <Route path='/' exact component={FilterApp}/>
-                </Switch>
-            </div>
-        );
-    }
+    return (
+      <div>
+        <Switch>
+          <Route path='/film/:filmName' component={FilmPage} />
+          <Route path='/' exact component={FilterApp} />
+        </Switch>
+      </div>
+    );
+  }
 }
 
 export default App;

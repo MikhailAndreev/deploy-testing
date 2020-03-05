@@ -43,7 +43,7 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        loader: ['style-loader', 'css-loader?url=false', 'sass-loader'],
+        loader: ['style-loader', 'css-loader?url=true', 'sass-loader'],
       },
       {
         test: /\.(png|jpe?g|gif)$/,

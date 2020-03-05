@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {connect} from 'react-redux';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
 
 import './FilterApp.scss';
@@ -39,19 +39,17 @@ class FilterApp extends Component {
   };
 
   render() {
-    const {updatedFilms, films, bookmarks, updatedTags, searchVal} = this.props.flm;
+    const { updatedFilms, films, bookmarks, updatedTags, searchVal } = this.props.flm;
     const isTagsEmpty = updatedTags.length < 1;
     const isInputEmpty = searchVal === '';
     const itemsToShow = isTagsEmpty && isInputEmpty ? this.state.count : updatedFilms.length;
     const isActiveBtn = Math.ceil(films.length / this.state.count) === 1 || !(isInputEmpty && isTagsEmpty);
-    console.log('FILMS LENGTH', Math.ceil(films.length / this.state.count));
-    console.log('STATE COUNT', this.state.count);
 
     return (
-      <WithClass 
-      wrapperStyle='filter-wrapper'
-      classes='filter-section'>
-        
+      <WithClass
+        wrapperStyle='filter-wrapper'
+        classes='filter-section'>
+
         <SearchBlock
           style='input-search'
           iconStyle='search-icon'
