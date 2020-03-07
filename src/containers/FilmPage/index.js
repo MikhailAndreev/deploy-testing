@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {connect} from "react-redux";
+import React, { Component } from 'react';
+import { connect } from "react-redux";
 
 import '../../containers/FilterApp/FilterApp.scss'
 import CustomButton from "../../components/atoms/CustomButton";
@@ -43,7 +43,7 @@ class FilmPage extends Component {
   };
 
   render() {
-    const {dataFilm, isBookmark} = this.state;
+    const { dataFilm, isBookmark } = this.state;
 
     return (
       <WithClass classes='filmpage-wrapper'>
@@ -60,16 +60,16 @@ class FilmPage extends Component {
           </div>
           <WithClass classes='film-section'>
             {dataFilm !== null &&
-            <h2>
-              {dataFilm.title}
-            </h2>
+              <h2 className='film-title'>
+                {dataFilm.title}
+              </h2>
             }
 
-            <button
-              onClick={this.onCheck}
-              >
-              {isBookmark ? 'УДАЛИТЬ С ЗАКЛАДОК' : 'ДОБАВИТЬ В ЗАКЛАДКИ'}
-            </button>
+            <CustomButton
+              style={`${isBookmark ? 'btn-bookmark btn-bookmark__delete' : 'btn-bookmark'}`}
+              handleClick={this.onCheck}
+              name={isBookmark ? 'УДАЛИТЬ С ЗАКЛАДОК' : 'ДОБАВИТЬ В ЗАКЛАДКИ'}
+            />
           </WithClass>
         </WithClass>
 

@@ -1,9 +1,13 @@
-@import "../../containers/FilterApp/FilterApp.scss";
-
+@import "../../styles/var";
+@import "../../styles/mixins";
 
 .filmpage-wrapper {
   width: 100%;
   padding: 40px;
+  font-family: $main-font;
+  @media screen and (max-width: $screen-sm) {
+    padding: 20px;
+  }
 }
 
 .nav-section {
@@ -18,12 +22,37 @@
 .film-section {
   @include flex-container(column, center, flex-start);
   text-align: left;
-  margin-left: 25px;
 }
 
 .img-section {
-  width: 200px;
+  width: 100%;
+  max-width: 200px;
   height: 300px;
   border: 1px solid lightgreen;
   background-color: lightgrey;
+  margin: 0 20px 0 0;
+  @media screen and (max-width: $screen-sm) {
+    flex-flow: column;
+    max-width: 150px;
+    height: 200px;
+  }
+  @media screen and (max-width: $screen-xs) {
+    height: 150px;
+  }
+}
+
+.btn-bookmark {
+  @extend %button;
+  padding: 7px;
+  margin: 10px 0 0 0;
+  background-color: #868efd;
+  width: 100%;
+  max-width: fit-content;
+  &__delete {
+    background-color: lightcoral;
+  }
+}
+
+.film-title {
+  @extend %film-title-lg;
 }

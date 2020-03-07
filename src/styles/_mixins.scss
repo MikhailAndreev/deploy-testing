@@ -1,7 +1,64 @@
 @mixin flex-container($f-direction, $jst-content: center, $alg-items: center, $f-wrap: wrap) {
-    display: flex;
-    align-items: $alg-items;
-    justify-content: $jst-content;
-    flex-direction: $f-direction;
-    flex-wrap: $f-wrap;
+  display: flex;
+  align-items: $alg-items;
+  justify-content: $jst-content;
+  flex-direction: $f-direction;
+  flex-wrap: $f-wrap;
+}
+
+%button {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: $secondary-font;
+  border: 1px solid hsla(0, 0%, 80%, 0.65);
+  background-size: 20px, 20px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  @media screen and (max-width: $screen-md) {
+    font-size: 12px;
   }
+  @media screen and (max-width: $screen-sm) {
+    font-size: 10px;
+  }
+  @media screen and (max-width: $screen-xs) {
+    white-space: nowrap;
+    font-size: 8px;
+  }
+  &:hover {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-out;
+  }
+}
+
+%film-title-sm {
+  font-size: 20px;
+  text-align: left;
+  width: fit-content;
+  color: $list-item-link-color;
+  font-weight: 700;
+  @media screen and (max-width: $screen-md) {
+    font-size: 16px;
+  }
+  @media screen and (max-width: $screen-sm) {
+    font-size: 14px;
+  }
+}
+
+%film-title-lg {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
+  width: fit-content;
+  color: $list-item-link-color;
+  @media screen and (max-width: $screen-md) {
+    font-size: 26px;
+  }
+  @media screen and (max-width: $screen-sm) {
+    font-size: 20px;
+  }
+  @media screen and (max-width: $screen-xs) {
+    font-size: 16px;
+  }
+}

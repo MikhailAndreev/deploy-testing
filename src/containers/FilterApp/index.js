@@ -25,6 +25,7 @@ class FilterApp extends Component {
     this.props.onGetFilmsList();
     this.setState({
       tagsList: staticData.tagsList
+      
     });
   }
 
